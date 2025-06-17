@@ -1,6 +1,7 @@
 import './css/App.css'
 import Home from "./pages/Home";
 import SignIn from './pages/Signin';
+import { SignUp } from './pages/SignUp';
 import {
   Route,
   RouterProvider,
@@ -12,6 +13,7 @@ const Router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
       <Route index element={<Home />} />
+      <Route path="/create-account" element={<SignUp />} />
       <Route path="/login" element={<SignIn />} />
     </Route>
   )

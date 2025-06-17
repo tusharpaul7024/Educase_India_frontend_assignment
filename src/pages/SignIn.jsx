@@ -1,6 +1,5 @@
-import "../css/components/signin.css";
 import { useNavigate } from "react-router";
-
+import "../css/components/signin.css";
 
 const SignIn = () => {
   const navigate = useNavigate();
