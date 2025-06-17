@@ -10,7 +10,7 @@ PopX is a modern React-based web application that provides a simple and clean us
 
 ## Installation
 ```
-https://github.com/tusharpaul7024/Educase_India_frontend_assignment.git
+git clone https://github.com/tusharpaul7024/Educase_India_frontend_assignment.git
 cd Educase_India_frontend_assignment
 npm install
 ```
