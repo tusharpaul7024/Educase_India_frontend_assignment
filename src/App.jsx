@@ -2,6 +2,7 @@ import './css/App.css'
 import Home from "./pages/Home";
 import SignIn from './pages/Signin';
 import { SignUp } from './pages/SignUp';
+import { Profile } from "./pages/Profile";
 import {
   Route,
   RouterProvider,
@@ -15,6 +16,7 @@ const Router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="/create-account" element={<SignUp />} />
       <Route path="/login" element={<SignIn />} />
+      <Route path="/profile" element={<Profile />} />
     </Route>
   )
 );

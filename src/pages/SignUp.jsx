@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/components/signup.css";
 import { useNavigate } from "react-router";
 
@@ -18,7 +17,7 @@ export const SignUp = () => {
     <div className="container">
       <div className="page">
         <section className="content content-signup">
-          <h2 className="heading">Create your PopX account</h2>
+          <h2 className="heading heading-2">Create your PopX account</h2>
 
           <form className="form signup-form" onSubmit={handleSubmit}>
             <div className="input-group">
