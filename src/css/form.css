@@ -1,0 +1,29 @@
+button {
+  font-size: var(--font-md);
+  padding: var(--spacing-smd);
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--color-primary-hover);
+}
+button {
+  font-size: var(--font-md);
+  padding: var(--spacing-smd);
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--color-primary-hover);
+}
+

@@ -2,6 +2,7 @@
 @import "./variable.css";
 @import "./base.css";
 @import "./components/home.css";
+@import "./form.css";
 
 * {
   margin: 0;
